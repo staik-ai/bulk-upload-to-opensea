@@ -1,75 +1,11 @@
-<img src="src/images/fortune-cat-neko.png" width="350">
-
 # bulk-upload-to-opensea
 A cross platform python IDE implementing selenium 4<BR>
-If you want to support this project or me, please check out my NFTs <BR>
-https://opensea.io/collection/fortune-cat-neko and wish give it a little love or grab it.<BR>
-Thank you.
 
-  Tutorial video v1.0<BR>
-  https://www.youtube.com/watch?v=yEowEDfTSpA<BR>
-  ~ or ~<BR>
-  Easy step by step<BR>
-  https://www.youtube.com/watch?v=j0WguSodGf8<BR>
-  Bulk upload to opensea - Buster: Captcha Solver<BR>
-  https://www.youtube.com/watch?v=6IoyczfQxtg<BR>
-  
-
-# Pay Service
-  Why need to pay? I realise some user are over requested additional feature or addon over the limitation.
-  if you are really need additional function for this bulk upload please contact my twitter @klvntss and the charge will by project basis. https://www.fiverr.com/kelvintss
-
-# Disclaimer
-  This free version script are not collect or capture any information while it running.
-  Make sure you are understand the all coding and process before running, please read line by line the original code before start running.
-  We will not be liable for any losses and/or damages for using of our script. Use at your own risk.
-  
-# Changelog
-  <ul>
-    <li><b>Version 2.0.1 (upload_2captcha V2.py)</b><BR>
-       Deleted some controls that were no longer needed for the polygon.<BR>
-       Added Latest stable release: ChromeDriver
-      </li>
-    <li><b>Version 2.0.0 (upload_2captcha V2.py)</b><BR>
-       2Captcha and Buster Solver combined in one file<BR>
-       Added repetitive error checks for many possible errors that may occur on the site<BR>
-       Added "chrome_extension" Please open chrome_extension folder and read the instructions<BR>
-       Collection Scraper added as prototype.
-      </li>
-      <li><b>Version 1.9.0 (upload_2captcha.py)</b><BR>
-       2Captcha Solver<BR>
-       https://chrome.google.com/webstore/detail/2captcha-solver/ifibfemgeogfhoebkmokieepdoobkbpo?hl=en<BR>
-        get your API-key from <a href="https://2captcha.com?from=13605454" target="_blank">2captcha.com</a><BR>
-        Enabled & Solve automatically reCaptcha V2 at option page.
-      </li>
-      <li><b>Version 1.8.9 (upload_captcha.py)</b><BR>
-       Fixed duration range selection
-      </li>
-    <li><b>Version 1.8.8 (upload_captcha.py)</b><BR>
-        Add chrome extesion: Buster: Captcha Solver for Humans<BR>
-        https://chrome.google.com/webstore/detail/buster-captcha-solver-for/mpbjkejclgfgadiemmefgebjfooflfhl?hl=en<BR>
-extension settings: Select any "speech service" and put in API key
-      </li>
-     <li><b>Version 1.8.1 (upload18.py)</b>
-      <ul>
-        <li>support "attributes" and "properties" metadata format</li>
-      </ul></li>
-    <li><b>Version 1.8 (upload18.py)</b>
-      <ul>
-        <li>Duration support added. Maximum duration is 6 months. <BR>
-        *Please install "pip install python-dateutil"<BR>
-          PC date format MUST set to mm/dd/yyyy
-         </li>
-      </ul></li>
-    <li><b>Version 1.0 (upload.py)</b>
-      <ul><li>Standard version</li></ul>
-    </li>
-  </ul>
 
 # Instructions
 <ul>
   <li>Download and extract this project in your local device (keep all files and folders that come with the repo in this folder)</li>
-  <li>Download and update Python. My python version is 3.8.10 * https://www.youtube.com/watch?v=9o4gDQvVkLU</li>
+  <li>Download and update Python.</li>
    <li>Put all the NFTs images into folder “src/images” (etc 1.png), and NFTs properties metadata .json file put into folder src/json. (etc 1.json)</li>
    <li>Open this project folder with any code editor and click "open powershell " or "Terminal"</li>
    <li>Pip install requirements.txt by running the following command (pip install -r requirements.txt) <BR>
